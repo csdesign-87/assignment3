@@ -4,7 +4,7 @@ while(number > 0) {
 	number-=2;
 }
 
-for(let i = 0; i<= 0; i-=2) {
+for(let i = 0; i<= 10000; i++) {
 	if (i === 2500) {
 	alert("quarterway");
 	} else if (i === 5000) {
@@ -17,5 +17,6 @@ for(let i = 0; i<= 0; i-=2) {
 const movies = ["super girl", "spartacus", "walking dead", "bumble bee", "olympus has fallen"];
 
 for(let i = 0; i <= movies.length; i++) {
-	console.log("My " + i + " favorite tv show is " + movies[i]);
+	console.log("My " + (i + 1) + " favorite tv show is " + movies[i]);
 }
+
