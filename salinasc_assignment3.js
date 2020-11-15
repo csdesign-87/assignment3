@@ -16,7 +16,7 @@ for(let i = 0; i<= 10000; i++) {
 
 const movies = ["super girl", "spartacus", "walking dead", "bumble bee", "olympus has fallen"];
 
-for(let i = 0; i <= movies.length; i++) {
+for(let i = 0; i < movies.length; i++) {
 	console.log("My " + (i + 1) + " favorite tv show is " + movies[i]);
 }
 
